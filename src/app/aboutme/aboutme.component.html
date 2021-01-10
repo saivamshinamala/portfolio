@@ -1,0 +1,11 @@
+<div id="aboutme" class="main">
+    <h1 class="heading">Hi, checkout my Qualifications.</h1>
+    <div class="column">
+        <div class="row" *ngFor = "let degree of degrees">
+            <h1>{{ degree.heading }}</h1>
+            <h3>{{ degree.school }}</h3>
+            <h4>Degree: {{ degree.degree }}</h4>
+            <h4>Field of Study: {{ degree.field }}</h4>
+            <h4>GPA: {{ degree.gpa }}</h4>
+    </div>
+</div>

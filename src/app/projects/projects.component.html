@@ -1,0 +1,20 @@
+<div id="projects" class="main">
+    <h1 class="heading">
+        Projects
+    </h1>
+    <div class="column">
+        <div class="row" *ngFor = "let project of projects1">
+            <img [src] = "project.imgSrc" alt="">
+            <p class="bgcolor">{{ project.title }}</p>
+            <p class="desc">{{ project.desc }}</p>
+            <a target="blank" [href]="project.link">Check It</a>
+        </div>
+    </div>
+    <div class="column">
+        <div class="row" *ngFor = "let project of projects2">
+            <img [src] = "project.imgSrc" alt="">
+            <p class="bgcolor">{{ project.title }}</p>
+            <p class="desc">{{ project.desc }}</p>
+        </div>
+    </div>
+</div>

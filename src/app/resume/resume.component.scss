@@ -1,0 +1,53 @@
+@import "../../reuse_styles.scss";
+
+.main {
+    background-color: $base_color;
+    color: $secondary_color;
+    padding-bottom: 3em;
+    h1 {
+        padding-top: 8vh;
+    }
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+    a {
+        text-decoration: none;
+        color: $secondary_color;
+        padding: 6px 3px;
+        border: 2px solid;
+    }
+    a + a {
+        margin-left: 20%;
+    }
+    a:hover{
+        color: $base_color;
+        background-color: $secondary_color;
+        transition: all .3s;
+        border: 2px solid $secondary_color;
+    }
+
+    img {
+        width: 100%;
+        display: flex;
+    }
+
+}
+
+@media only screen and(min-width: 720px) {
+
+    .row {
+        width: 50%;
+        a {
+            margin-bottom: 10%;
+            width: 20%;
+        }
+        a + a {
+            margin-left: 0%;
+        }
+        img {
+            margin-left: 25%;
+        }
+    }
+}

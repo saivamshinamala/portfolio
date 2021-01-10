@@ -1,0 +1,37 @@
+@import "../../reuse_styles.scss";
+
+footer {
+    min-height: 200px;
+    background-color: rgba($color: #000000, $alpha: .90);
+    color: rgba($secondary_color, $alpha: .80);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        margin-bottom: 1em;
+    }
+
+    .icons {
+
+        i{
+            font-size: 1.5em;
+            background-color: $base_color;
+            padding: .5em;
+            border-radius: 50%;
+            transition: all .3s;
+            color: $secondary_color;
+        }
+
+        a + a {
+            margin-left: 1em;
+        }
+        i:hover {
+            color: $base_color;
+            background-color: $secondary_color;
+            transition: all .3s;
+        }
+    }
+}

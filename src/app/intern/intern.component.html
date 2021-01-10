@@ -1,0 +1,27 @@
+<div id="intern" class="main">
+    <h1 class="heading">Experience</h1>
+    <div class="column">
+        <div class="row company">
+            <img width="200px" src="../../assets/Images/axiomio.jpg" alt="">
+            <div class="company_text">
+                <h3>{{ company.bold_desc }}</h3>
+                <p>{{ company.desc }}</p>
+            </div>
+        </div>
+        <div class="row text">
+            <h1>{{ experience.title }}</h1>
+            <h3>{{ experience.role }}</h3>
+            <table>
+                <tr>
+                    <td class="tbdata"><b>Description:</b></td>
+                    <td><p> {{ experience.description }}</p></td>
+                </tr>
+                <br><br>
+                <tr>
+                    <td class="tbdata"><b>Time Period:</b></td>
+                    <td><p> {{ experience.timePeriod }}</p></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

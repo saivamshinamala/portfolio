@@ -1,0 +1,15 @@
+<nav>
+    <h3></h3>
+    <div class="burger" (click)="burgerClicked()">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <ul class= "{{ nav_links_class }}">
+        <li (click)="toHome()"><a routerLink="">Home</a></li>
+        <li (click)="toAboutMe()"><a routerLinkActive = "active_link" routerLink="/about-me">About Me</a></li>
+        <li (click)="toIntern()"><a routerLinkActive = "active_link" routerLink="/intern">Intern</a></li>
+        <li (click)="toProjects()"><a routerLinkActive = "active_link" routerLink="/projects">Projects</a></li>
+        <li (click)="toResume()"><a routerLinkActive = "active_link" routerLink="/resume">Resume</a></li>
+    </ul>
+</nav>

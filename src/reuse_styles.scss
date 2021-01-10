@@ -1,0 +1,41 @@
+$base_color: #0F0E30;
+$secondary_color: #eeeeee;
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    text-align: center;
+}
+
+.row + .row {
+    margin-top: 2em;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 100;
+    margin: .6em auto;
+    padding-top: 8vh;
+}
+
+
+
+
+@media only screen and(min-width: 720px) {
+
+    .column {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        .row {
+            display: flex;
+            flex-direction: column;
+        }
+        .row + .row {
+            margin-top: 0;
+        }
+    }
+}
