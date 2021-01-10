@@ -16,19 +16,19 @@ export class ProjectsComponent implements OnInit {
     {
       title : "NotesSavingApp",
       desc: "Simple notes saving app where users need to authorize themselves for accessing the notes and creating new once.",
-      imgSrc: "../../assets/notessavingapp.png",
+      imgSrc: "assets/notessavingapp.png",
       link: "https://saivamshinamala.github.io/mean-frontend/login"
     },
     {
       title : "ICCII",
       desc: "Website for a conference held in our college.",
-      imgSrc: "../../assets/iccii.png",
+      imgSrc: "assets/iccii.png",
       link: "http://www.iccii.net/"
     },
     {
       title : "Pig Game",
       desc: "A simple two-player dice game where a player wins if he scores the first 100.",
-      imgSrc: "../../assets/piggame.png",
+      imgSrc: "assets/piggame.png",
       link: "https://saivamshinamala.github.io/pig-game/"
     }
   ];
@@ -36,7 +36,7 @@ export class ProjectsComponent implements OnInit {
     {
       title : "Data Encryption",
       desc: "An application that demonstrates the working of Encryption Algorithms like Caesar Cipher, Monoalphabetic, etc.",
-      imgSrc: "../../assets/dataencryption.png"
+      imgSrc: "assets/dataencryption.png"
     }
   ];
 
